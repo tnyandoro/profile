@@ -24,7 +24,7 @@
 .education-sec .edu-list li:hover .uni-name,
 .comments-block .comment-area .txt-holder .reply,
 .comments-block .comment-area .txt-holder h3 a:hover {
-  color: #b09b21;
+    color: #6f02ec;
 }
 
 #nav,
@@ -43,18 +43,18 @@
 .education-sec .edu-list li:hover .time,
 .blog-sec .slick-dots .slick-active button,
 .price-sec .price-holder .price-col.active .price-list .btn:hover {
-  background: #b09b21;
+    background: #6f02ec;
 }
 
 .banner .caption .txt:before {
-  border-top-color: #b09b21;
+    border-top-color: #b09b21;
 }
 
 .blog-detail .blog .quote,
 .comments-form .comment-form .form-control:focus {
-  border-color: #b09b21;
+    border-color: #6f02ec;
 }
 
 .abt-sec.style2 .img-holder .caption {
-  background: rgba(216, 191, 37, 0.5);
+    background: rgba(216, 191, 37, 0.5);
 }
