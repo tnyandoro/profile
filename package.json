@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "@babel/eslint-plugin": "^7.14.5",
     "array-union": "^1.0.2",
     "array-uniq": "^1.0.3",
     "balanced-match": "^1.0.2",
@@ -11,6 +12,8 @@
     "commondir": "^1.0.1",
     "concat-map": "^0.0.1",
     "escape-string-regexp": "^1.0.5",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-babel": "^5.3.1",
     "filename-reserved-regex": "^2.0.0",
     "fs.realpath": "^1.0.0",
     "gh-pages": "^3.2.3",
@@ -19,7 +22,11 @@
     "jsonfile": "^4.0.0",
     "startbootstrap-resume": "^6.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -29,9 +36,8 @@
   },
   "author": "",
   "license": "ISC",
-  "homepage":"http://tendainyandoro.me/profile/"
+  "homepage": "http://tendainyandoro.me/profile/",
   "bugs": {
     "url": "https://github.com/tnyandoro/profile/issues"
-  },
-  "homepage": "https://github.com/tnyandoro/profile#readme"
+  }
 }
